@@ -1,0 +1,15 @@
+git init
+git status
+git add *.txt
+git rm -f "section 3.1.txt"
+git reset --hard HEAD
+git commit -m "ADD ALL FILES"
+git remote add origin https://github.com/MHGanainy/Sprint0
+git branch ReadMe
+git checkout ReadMe
+git add Readme.md
+git commit -m "ADD README.MD TO BRANCH"
+git checkout master
+git merge ReadMe
+git add AllMyCommands.txt
+git commit -m "ADD ALLMYCOMMANDS"
